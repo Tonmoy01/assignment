@@ -1,6 +1,7 @@
-export const getAllusers = (users) => {
-  return {
-    type: 'GET_USRES',
-    payload: users,
-  };
+export const getAllUsers = (users) => {
+	console.log(users);
+	return {
+		type: 'GET_USERS',
+		payload: users,
+	};
 };
